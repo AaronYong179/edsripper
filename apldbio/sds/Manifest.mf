@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: QuantStudio 3 and 5 Software
+Implementation-Version: 1.5.2
+Specification-Vendor: Applied Biosystems
+Specification-Title: Experiment Document Specification
+Content-Type: Std
+Specification-Version: 1.3.2
+

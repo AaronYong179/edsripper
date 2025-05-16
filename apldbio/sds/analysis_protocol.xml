@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<JaxbAnalysisProtocol>
+    <Name>unnamed</Name>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IDetectorSettings</Type>
+        <JaxbSettingValue>
+            <Name>ConfidenceLevel</Name>
+            <JaxbValueItem type="Double">
+                <DoubleValue>99.0</DoubleValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoCt</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>CreatedByUser</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>15</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>AnalysisProtocol.DEFAULT_SETTINGS</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>Threshold</Name>
+            <JaxbValueItem type="Double">
+                <DoubleValue>0.2</DoubleValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IAutoAnalysisSettings</Type>
+        <JaxbSettingValue>
+            <Name>AutoSpectral</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>false</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoAnalysis</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>false</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>AnalysisProtocol.DEFAULT_SETTINGS</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IAlgorithmSelectSettings</Type>
+        <JaxbSettingValue>
+            <Name>AlgorithmName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>default</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>AnalysisProtocol.DEFAULT_SETTINGS</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.ICrtSettings</Type>
+        <JaxbSettingValue>
+            <Name>CrtStartValue</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>1</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.ISignalSmoothingSettings</Type>
+        <JaxbSettingValue>
+            <Name>SignalSmoothing</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>AnalysisProtocol.DEFAULT_SETTINGS</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>false</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>15</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>AnalysisProtocol.DEFAULT_SETTINGS</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IDataSelectSettings</Type>
+        <JaxbSettingValue>
+            <Name>StepNum</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>2</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>PointNum</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>1</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>MeltStageNum</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>StageNum</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>2</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>IDataSelectSettings.OBJECT_NAME</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IDetectorSettings</Type>
+        <JaxbSettingValue>
+            <Name>ConfidenceLevel</Name>
+            <JaxbValueItem type="Double">
+                <DoubleValue>99.0</DoubleValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoCt</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>15</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>B</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>Threshold</Name>
+            <JaxbValueItem type="Double">
+                <DoubleValue>0.4003195870960406</DoubleValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IDetectorSettings</Type>
+        <JaxbSettingValue>
+            <Name>ConfidenceLevel</Name>
+            <JaxbValueItem type="Double">
+                <DoubleValue>99.0</DoubleValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoCt</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>15</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>G</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>Threshold</Name>
+            <JaxbValueItem type="Double">
+                <DoubleValue>0.4217109661449178</DoubleValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IMeltCuveSettings</Type>
+        <JaxbSettingValue>
+            <Name>MultiPeakCallingEnabled</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>SpectralNoiseThreshold</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>300</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>TMThreshold</Name>
+            <JaxbValueItem type="Float">
+                <FloatValue>0.0</FloatValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ThresholdEnabled</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>false</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>FractionalEnabled</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>FractionalDetectablePeak</Name>
+            <JaxbValueItem type="Float">
+                <FloatValue>0.1</FloatValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>SpectralNoiseThresholdEnabled</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>B</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IMeltCuveSettings</Type>
+        <JaxbSettingValue>
+            <Name>MultiPeakCallingEnabled</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>SpectralNoiseThreshold</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>300</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>TMThreshold</Name>
+            <JaxbValueItem type="Float">
+                <FloatValue>0.0</FloatValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ThresholdEnabled</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>false</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>FractionalEnabled</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>FractionalDetectablePeak</Name>
+            <JaxbValueItem type="Float">
+                <FloatValue>0.1</FloatValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>SpectralNoiseThresholdEnabled</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>G</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IMeltCuveSettings</Type>
+        <JaxbSettingValue>
+            <Name>MultiPeakCallingEnabled</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>SpectralNoiseThreshold</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>300</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>TMThreshold</Name>
+            <JaxbValueItem type="Float">
+                <FloatValue>0.0</FloatValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ThresholdEnabled</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>false</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>FractionalEnabled</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>FractionalDetectablePeak</Name>
+            <JaxbValueItem type="Float">
+                <FloatValue>0.1</FloatValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>SpectralNoiseThresholdEnabled</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>Target 1</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>9</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>23</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>B</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>21</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>21</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>B</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>33</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>19</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>B</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>45</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>21</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>B</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>57</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>19</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>B</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>69</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>20</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>B</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>81</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>20</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>B</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>93</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>20</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>B</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>8</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>19</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>G</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>20</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>18</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>G</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>32</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>17</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>G</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>44</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>19</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>G</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>56</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>19</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>G</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>68</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>19</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>G</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>80</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>18</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>G</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <JaxbAnalysisSettings>
+        <Type>com.apldbio.sds.platform.core.analysis.IWellSettings</Type>
+        <JaxbSettingValue>
+            <Name>UseDetectorDefaults</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>AutoBaseline</Name>
+            <JaxbValueItem type="Boolean">
+                <BooleanValue>true</BooleanValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>WellIndex</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>92</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStart</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>3</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>BaselineStop</Name>
+            <JaxbValueItem type="Integer">
+                <IntValue>19</IntValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+        <JaxbSettingValue>
+            <Name>ObjectName</Name>
+            <JaxbValueItem type="String">
+                <StringValue>G</StringValue>
+            </JaxbValueItem>
+        </JaxbSettingValue>
+    </JaxbAnalysisSettings>
+    <AnalysisSetting>
+        <Type>NHC</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>LESS_THAN 35.0</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>BPR</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>GREATER_THAN 0.6</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>DRNMIN</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>LESS_THAN 35.0</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>LESS_THAN 0.2</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>FOS</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>true</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>HSD</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>GREATER_THAN 0.5</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>CC</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>LESS_THAN 0.8</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>NA</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>LESS_THAN 0.1</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>HRN</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>GREATER_THAN 4.0</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>NS</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>GREATER_THAN 1.0</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>EW</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>true</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>criteria4QS</Name>
+            <Type>String</Type>
+            <StringValue>LESS_THAN 100000.0</StringValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>ORG</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>true</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>EAF</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>true</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>BAF</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>true</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>TAF</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>true</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>CAF</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>true</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>ROXLOW</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>LESS_THAN 20.0</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>ROXDROP</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>GREATER_THAN 0.04</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+    <AnalysisSetting>
+        <Type>MTP</Type>
+        <SettingValue>
+            <Name>criteria</Name>
+            <Type>String</Type>
+            <StringValue>true</StringValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>omitEnabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>false</BooleanValue>
+        </SettingValue>
+        <SettingValue>
+            <Name>enabled</Name>
+            <Type>Boolean</Type>
+            <BooleanValue>true</BooleanValue>
+        </SettingValue>
+    </AnalysisSetting>
+</JaxbAnalysisProtocol>

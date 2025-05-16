@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Experiment>
+    <Name>2025-05-16_104732</Name>
+    <RunState>COMPLETE</RunState>
+    <FinalAnalysisCompleted>true</FinalAnalysisCompleted>
+    <CreatedTime>1747363651809</CreatedTime>
+    <ModifiedTime>0</ModifiedTime>
+    <RunStartTime>1747365390396</RunStartTime>
+    <RunEndTime>1747368901691</RunEndTime>
+    <PreReadState>INIT</PreReadState>
+    <FileName>D:\Users\INSTR-USER\experiments\2025-05-16_104732.eds</FileName>
+    <Label>ruo</Label>
+    <Type>
+        <Id>Std</Id>
+        <Name>Standard Curve</Name>
+        <Description>Use standards to determine the absolute quantity of target nucleic acid sequence in samples.</Description>
+        <ResultPersisterName>scAnalysisResultPersister</ResultPersisterName>
+        <ContributedResultPersisterNames>mcAnalysisResultPersister</ContributedResultPersisterNames>
+        <Chemistry>
+            <Name>TaqMan® Reagents</Name>
+            <Description>The PCR reactions contain primers designed to amplify the target sequence and a TaqMan® probe designed to detect amplification of the target sequence.</Description>
+            <ID>TAQMAN</ID>
+        </Chemistry>
+        <Chemistry>
+            <Name>SYBR® Green Reagents</Name>
+            <Description>The PCR reactions contain primers designed to amplify the target sequence and SYBR® Green I dye to detect double-stranded DNA.</Description>
+            <ID>SYBR_GREEN</ID>
+        </Chemistry>
+        <Chemistry>
+            <Name>Other</Name>
+            <Description>The PCR reactions contain primers to designed to amplify the target sequence and other reagents to detect amplification.</Description>
+            <ID>OTHER</ID>
+        </Chemistry>
+    </Type>
+    <Samples>
+        <Sample>
+            <Name>G</Name>
+            <Color>-16776961</Color>
+            <Concentration>100.0</Concentration>
+            <CustomProperties>
+                <CustomProperty Name="SP_UUID" Value="7be15a2bab9b4b0fa35574b1e5a063af"/>
+            </CustomProperties>
+        </Sample>
+        <Sample>
+            <Name>Sample 1</Name>
+            <Color>-5236961</Color>
+            <Concentration>100.0</Concentration>
+            <CustomProperties>
+                <CustomProperty Name="SP_UUID" Value="7a5bd143d3b24ff6865a785537075248"/>
+            </CustomProperties>
+        </Sample>
+    </Samples>
+    <Detectors>
+        <Detector>
+            <Name>Target 1</Name>
+            <Reporter>SYBR</Reporter>
+            <Quencher>None</Quencher>
+            <Color>-5236961</Color>
+            <ProbePrimerMixFactor>20.0</ProbePrimerMixFactor>
+            <UMMFactor>2.0</UMMFactor>
+            <ReverseMixFactor>125.0</ReverseMixFactor>
+            <TaqmanProbeInitialConcentration>20.0</TaqmanProbeInitialConcentration>
+            <TaqmanProbeFinalQuantity>900.0</TaqmanProbeFinalQuantity>
+            <TaqmanProbeInitialConcentrationUnits>pmol/µL</TaqmanProbeInitialConcentrationUnits>
+            <ForwardPrimerFinalQuantity>200.0</ForwardPrimerFinalQuantity>
+            <ForwardPrimerInitialConcentration>20.0</ForwardPrimerInitialConcentration>
+            <ForwardPrimerInitialConcentrationUnits>pmol/µL</ForwardPrimerInitialConcentrationUnits>
+            <ReversePrimerFinalQuantity>200.0</ReversePrimerFinalQuantity>
+            <ReversePrimerInitialConcentration>20.0</ReversePrimerInitialConcentration>
+            <ReversePrimerInitialConcentrationUnits>pmol/µL</ReversePrimerInitialConcentrationUnits>
+        </Detector>
+        <Detector>
+            <Name>G</Name>
+            <Reporter>SYBR</Reporter>
+            <Quencher>None</Quencher>
+            <Color>-16776961</Color>
+            <ProbePrimerMixFactor>20.0</ProbePrimerMixFactor>
+            <UMMFactor>2.0</UMMFactor>
+            <ReverseMixFactor>125.0</ReverseMixFactor>
+            <TaqmanProbeInitialConcentration>20.0</TaqmanProbeInitialConcentration>
+            <TaqmanProbeFinalQuantity>900.0</TaqmanProbeFinalQuantity>
+            <TaqmanProbeInitialConcentrationUnits>pmol/µL</TaqmanProbeInitialConcentrationUnits>
+            <ForwardPrimerFinalQuantity>900.0</ForwardPrimerFinalQuantity>
+            <ForwardPrimerInitialConcentration>20.0</ForwardPrimerInitialConcentration>
+            <ForwardPrimerInitialConcentrationUnits>pmol/µL</ForwardPrimerInitialConcentrationUnits>
+            <ReversePrimerFinalQuantity>900.0</ReversePrimerFinalQuantity>
+            <ReversePrimerInitialConcentration>20.0</ReversePrimerInitialConcentration>
+            <ReversePrimerInitialConcentrationUnits>pmol/µL</ReversePrimerInitialConcentrationUnits>
+        </Detector>
+        <Detector>
+            <Name>B</Name>
+            <Reporter>SYBR</Reporter>
+            <Quencher>None</Quencher>
+            <Color>-16741563</Color>
+            <ProbePrimerMixFactor>20.0</ProbePrimerMixFactor>
+            <UMMFactor>2.0</UMMFactor>
+            <ReverseMixFactor>125.0</ReverseMixFactor>
+            <TaqmanProbeInitialConcentration>20.0</TaqmanProbeInitialConcentration>
+            <TaqmanProbeFinalQuantity>900.0</TaqmanProbeFinalQuantity>
+            <TaqmanProbeInitialConcentrationUnits>pmol/µL</TaqmanProbeInitialConcentrationUnits>
+            <ForwardPrimerFinalQuantity>900.0</ForwardPrimerFinalQuantity>
+            <ForwardPrimerInitialConcentration>20.0</ForwardPrimerInitialConcentration>
+            <ForwardPrimerInitialConcentrationUnits>pmol/µL</ForwardPrimerInitialConcentrationUnits>
+            <ReversePrimerFinalQuantity>900.0</ReversePrimerFinalQuantity>
+            <ReversePrimerInitialConcentration>20.0</ReversePrimerInitialConcentration>
+            <ReversePrimerInitialConcentrationUnits>pmol/µL</ReversePrimerInitialConcentrationUnits>
+        </Detector>
+    </Detectors>
+    <CocktailWastePercentage>10</CocktailWastePercentage>
+    <ChemistryType>SYBR_GREEN</ChemistryType>
+    <UMMFactor>2.0</UMMFactor>
+    <CommonSampleConcentration>50.0</CommonSampleConcentration>
+    <CommonSampleConcentrationUnits>ng/μL</CommonSampleConcentrationUnits>
+    <TCProtocolMode>Fast</TCProtocolMode>
+    <DNATemplateType>WET_DNA</DNATemplateType>
+    <InstrumentTypeId>appletini</InstrumentTypeId>
+    <BlockTypeID>18</BlockTypeID>
+    <PlateTypeID>TYPE_8X12</PlateTypeID>
+    <ExperimentProperty type="InstrumentInfo">
+        <PropertyValue key="instrumentSerialNumber">
+            <String>272529582</String>
+        </PropertyValue>
+        <PropertyValue key="instrumentName">
+            <String>      272529582</String>
+        </PropertyValue>
+        <PropertyValue key="instrumentType">
+            <String>QuantStudio 5 - 96-Well 0.2-mL Block</String>
+        </PropertyValue>
+        <PropertyValue key="blockSerialNumber">
+            <String>21133702</String>
+        </PropertyValue>
+    </ExperimentProperty>
+    <ExperimentProperty type="ExperimentAmpPlotDataSource.DELTA_RN_VS_CYCLE_PLOT">
+        <PropertyValue key="YColorBlue">
+            <Integer>0</Integer>
+        </PropertyValue>
+        <PropertyValue key="YFontStyle">
+            <Integer>0</Integer>
+        </PropertyValue>
+        <PropertyValue key="isXShowMinorTicks">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="XFontSize">
+            <Integer>11</Integer>
+        </PropertyValue>
+        <PropertyValue key="XColorRed">
+            <Integer>0</Integer>
+        </PropertyValue>
+        <PropertyValue key="XMax_1">
+            <String>1.7976931348623157E308</String>
+        </PropertyValue>
+        <PropertyValue key="Ylabel">
+            <String>ΔRn</String>
+        </PropertyValue>
+        <PropertyValue key="YFontSize">
+            <Integer>11</Integer>
+        </PropertyValue>
+        <PropertyValue key="titleColorAlpha">
+            <Integer>255</Integer>
+        </PropertyValue>
+        <PropertyValue key="YColorGreen">
+            <Integer>0</Integer>
+        </PropertyValue>
+        <PropertyValue key="isLog">
+            <Boolean>false</Boolean>
+        </PropertyValue>
+        <PropertyValue key="isXMinorTickLinesEnabled">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="titleFontName">
+            <String>Tahoma Bold</String>
+        </PropertyValue>
+        <PropertyValue key="titleColorBlue">
+            <Integer>0</Integer>
+        </PropertyValue>
+        <PropertyValue key="isYShowTickLabels">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="title">
+            <String>Amplification Plot</String>
+        </PropertyValue>
+        <PropertyValue key="YColorRed">
+            <Integer>0</Integer>
+        </PropertyValue>
+        <PropertyValue key="YMin_1">
+            <String>1.0E-6</String>
+        </PropertyValue>
+        <PropertyValue key="titleColorRed">
+            <Integer>0</Integer>
+        </PropertyValue>
+        <PropertyValue key="titleColorGreen">
+            <Integer>0</Integer>
+        </PropertyValue>
+        <PropertyValue key="Xlabel">
+            <String>Cycle</String>
+        </PropertyValue>
+        <PropertyValue key="titleFontSize">
+            <Integer>18</Integer>
+        </PropertyValue>
+        <PropertyValue key="XFontStyle">
+            <Integer>0</Integer>
+        </PropertyValue>
+        <PropertyValue key="XColorAlpha">
+            <Integer>255</Integer>
+        </PropertyValue>
+        <PropertyValue key="XFontName">
+            <String>Tahoma</String>
+        </PropertyValue>
+        <PropertyValue key="isXShowMinorTickLines">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="titleFontStyle">
+            <Integer>1</Integer>
+        </PropertyValue>
+        <PropertyValue key="isYAutoAdjust">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="YFontName">
+            <String>Tahoma</String>
+        </PropertyValue>
+        <PropertyValue key="XColorBlue">
+            <Integer>0</Integer>
+        </PropertyValue>
+        <PropertyValue key="isXShowTickLabels">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="isYRangeEnabled">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="YMax_1">
+            <String>1.7976931348623157E308</String>
+        </PropertyValue>
+        <PropertyValue key="isXAutoAdjust">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="XColorGreen">
+            <Integer>0</Integer>
+        </PropertyValue>
+        <PropertyValue key="isYShowMinorTicks">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="isYMinorTicksEnabled">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="isXShowTickMarks">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="isYMinorTickLinesEnabled">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="XMin_1">
+            <String>4.9E-324</String>
+        </PropertyValue>
+        <PropertyValue key="isYShowMinorTickLines">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="isShowTitle">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="YColorAlpha">
+            <Integer>255</Integer>
+        </PropertyValue>
+        <PropertyValue key="isXMinorTicksEnabled">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="isXRangeEnabled">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="isXEnabled">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+        <PropertyValue key="isYEnabled">
+            <Boolean>true</Boolean>
+        </PropertyValue>
+    </ExperimentProperty>
+    <ExperimentProperty type="InstrumentTypeInfo">
+        <PropertyValue key="INSTRUMENT_TYPE_KEY">
+            <String>APPLETINI_96WELL_PERFORM_200UL</String>
+        </PropertyValue>
+    </ExperimentProperty>
+    <ExperimentProperty type="RunInfo">
+        <PropertyValue key="userId">
+            <String>DEFAULT</String>
+        </PropertyValue>
+        <PropertyValue key="softwareVersion">
+            <String>QuantStudio™ Design &amp; Analysis Software v1.5.2</String>
+        </PropertyValue>
+    </ExperimentProperty>
+</Experiment>
