@@ -17,6 +17,8 @@ def convert_index_to_alphanum(well_index):
     row_alpha = chr(well_index // 12 + 65)
     return f"{row_alpha}{column_number}"
 
+
+
 def read_data():
     fpath = os.path.join("apldbio", "sds", "analysis_result.txt")
     
@@ -40,7 +42,7 @@ def read_data():
             else:
                 raw_values[i%3-1].append(list(map(float, row.split('\t')[1:])))
 
-    print(raw_values[0])                    
+    print(headers)                 
     # return data
 
 print(read_data())
