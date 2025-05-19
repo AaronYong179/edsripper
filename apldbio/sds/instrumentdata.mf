@@ -1,2 +1,0 @@
-#Fri May 16 12:14:20 SGT 2025
-Instrument-Data-Version=1.0
